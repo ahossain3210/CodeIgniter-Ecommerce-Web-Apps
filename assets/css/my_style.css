@@ -1,0 +1,28 @@
+#search-area input{
+    border: 1px solid #1f8ba3;
+    padding: 10px;
+    height: 50px;
+    /*margin-top: 8px;*/
+    width: 35px;
+    font-size: 18px;
+    border-radius: 4px;
+    position: absolute;
+    right: 70px;
+    background: #1f8ba3;
+    color: #000;
+    font-size: 13px;
+}
+#search-area button{
+    position: absolute;
+    border-radius: 4px;
+    border: 0px none;
+    height: 50px;
+    width: 50px;
+    /*margin-top: 8px;*/
+    right: 70px;
+    background: #59b8cc;
+    color: #ccc;
+}
+#search-area button.active{
+    border-radius: 0px 4px 4px 0px;
+}
